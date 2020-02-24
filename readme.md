@@ -1,29 +1,22 @@
 ## 进度线
-
-2020/2/8 项目成立
-
+>
+> 2020/2/24 设定方向，规划架构
+>
+> 2020/2/8 项目成立
+>
 ## 项目结构
 
 ```
-awesome-python3-webapp/  <-- 根目录
+Magic_mirror/  
 |
-+- backup/               <-- 备份目录
 |
-+- conf/                 <-- 配置文件
-|
-+- dist/                 <-- 打包目录
-|
-+- www/                  <-- Web目录，存放.py文件
+    +- main/        主文件夹
 |  |
-|  +- static/            <-- 存放静态文件
+|  +- UI/       界面交互设计
 |  |
-|  +- templates/         <-- 存放模板文件
+|  +- dataset/      数据支持 
+|  |
+|  +- communication         通信
 |
-+- ios/                  <-- 存放iOS App工程
-|
-+- LICENSE               <-- 代码LICENSE
++- readme.md        说明
 ```
-
-## 参考资料
-
->  [廖雪峰老师：webapp实战](https://www.liaoxuefeng.com/wiki/1016959663602400/1018138223191520)
